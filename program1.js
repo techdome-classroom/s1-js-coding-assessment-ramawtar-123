@@ -5,4 +5,4 @@ const getTotalIsles = function (grid) {
 
 };
 
-module.exports = getTotalIsles;g
+module.exports = getTotalIsles;
