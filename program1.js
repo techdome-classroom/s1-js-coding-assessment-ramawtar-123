@@ -12,7 +12,7 @@ const getTotalIsles = function (grid) {
       if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || grid[i][j] === 'W') {
           return;
       }
-      // Mark the land as water to avoid revisiting
+
       grid[i][j] = 'W';
 
       // Visit all adjacent land (up, down, left, right)
