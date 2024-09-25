@@ -15,7 +15,6 @@ const getTotalIsles = function (grid) {
 
       grid[i][j] = 'W';
 
-      // Visit all adjacent land (up, down, left, right)
       dfs(grid, i - 1, j);
       dfs(grid, i + 1, j);
       dfs(grid, i, j - 1);
